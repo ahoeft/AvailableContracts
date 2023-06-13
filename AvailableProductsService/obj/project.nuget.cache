@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGbq3srL2tIdtoWOt7v0vCS2iq8CBLD8qw+/Tjm4EaYH5yXYPKmtD9MkYcI1NYdL/0wF+vsscUhbRvtsmpNRuw==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\AvailableProductsService\\AvailableProductsService\\AvailableProductsService.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yeyian PC\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
