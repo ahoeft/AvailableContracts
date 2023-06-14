@@ -24,18 +24,16 @@ let convertData lines =
 
     lines |> Seq.map (fun line -> convertToMusicContract line)
 
-let searchITunes date lines =
+let searchByDate date lines (usageFilter:string) =
     lines 
     |> Seq.tail 
     |> convertData 
-    |> Seq.filter(fun contract -> contract.Usages.Contains("digital download"))
+    |> Seq.filter(fun contract -> contract.Usages.Contains(usageFilter))
     |> Seq.filter(fun contract -> contract.StartDate <= date)
-    |> Seq.map (fun contract -> {contract with Usages = "digital download"})
+    |> Seq.map (fun contract -> {contract with Usages =usageFilter})
+
+let searchITunes date lines =
+    searchByDate date lines "digital download"
 
 let searchYoutube date lines =
-    lines 
-    |> Seq.tail 
-    |> convertData 
-    |> Seq.filter(fun contract -> contract.Usages.Contains("streaming"))
-    |> Seq.filter(fun contract -> contract.StartDate <= date)
-    |> Seq.map (fun contract -> {contract with Usages = "streaming"})
+    searchByDate date lines "streaming"
