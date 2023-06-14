@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iy/lgcEppzSsg+5Sv3ccgZmLTfckxo4JdVn139wunhDS1jdBze7gyvzTRJyFLlMUQAv8agspKTbLlEfHbY65mA==",
+  "dgSpecHash": "DjNUXg73iUNvbut+7Oitzaabt5lD1w0by+qmiPqmkvE1yOxG1xvklCzWu6kPN/6qdljM0vOg4uJmbzpv7lNzvg==",
   "success": true,
   "projectFilePath": "C:\\Code\\AvailableProductsService\\AvailableProductsServiceTests\\AvailableProductsServiceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yeyian PC\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\Yeyian PC\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",
+    "C:\\Users\\Yeyian PC\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512",
     "C:\\Users\\Yeyian PC\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
     "C:\\Users\\Yeyian PC\\.nuget\\packages\\microsoft.codecoverage\\17.0.0\\microsoft.codecoverage.17.0.0.nupkg.sha512",
     "C:\\Users\\Yeyian PC\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -114,7 +114,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the supplied reference data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
- testRunner.When("user perform search by ITunes 03-01-2012", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("user perform search by ITunes \"03-01-2012\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "Artist",
@@ -148,6 +148,136 @@ this.ScenarioInitialize(scenarioInfo);
                             ""});
 #line 9
  testRunner.Then("the output should be", ((string)(null)), table1, "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="Search for active music contracts_2")]
+        [Xunit.TraitAttribute("FeatureTitle", "SearchContracts")]
+        [Xunit.TraitAttribute("Description", "Search for active music contracts_2")]
+        public virtual void SearchForActiveMusicContracts_2()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search for active music contracts_2", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 16
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 17
+ testRunner.Given("the supplied reference data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 18
+ testRunner.When("user perform search by YouTube \"12-27-2012\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Artist",
+                            "Title",
+                            "Usages",
+                            "StartDate",
+                            "EndDate"});
+                table2.AddRow(new string[] {
+                            "Monkey Claw",
+                            "Christmas Special",
+                            "streaming",
+                            "12-25-2012",
+                            "12-31-2012"});
+                table2.AddRow(new string[] {
+                            "Monkey Claw",
+                            "Iron Horse",
+                            "streaming",
+                            "06-01-2012",
+                            ""});
+                table2.AddRow(new string[] {
+                            "Monkey Claw",
+                            "Motor Mouth",
+                            "streaming",
+                            "03-01-2011",
+                            ""});
+                table2.AddRow(new string[] {
+                            "Tinie Tempah",
+                            "Frisky (Live from SoHo)",
+                            "streaming",
+                            "02-01-2012",
+                            ""});
+#line 19
+ testRunner.Then("the output should be", ((string)(null)), table2, "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.SkippableFactAttribute(DisplayName="Search for active music contracts_3")]
+        [Xunit.TraitAttribute("FeatureTitle", "SearchContracts")]
+        [Xunit.TraitAttribute("Description", "Search for active music contracts_3")]
+        public virtual void SearchForActiveMusicContracts_3()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Search for active music contracts_3", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 26
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 27
+ testRunner.Given("the supplied reference data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 28
+ testRunner.When("user perform search by YouTube \"04-01-2012\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Artist",
+                            "Title",
+                            "Usages",
+                            "StartDate",
+                            "EndDate"});
+                table3.AddRow(new string[] {
+                            "Monkey Claw",
+                            "Motor Mouth",
+                            "streaming",
+                            "03-01-2011",
+                            ""});
+                table3.AddRow(new string[] {
+                            "Tinie Tempah",
+                            "Frisky (Live from SoHo)",
+                            "streaming",
+                            "02-01-2012",
+                            ""});
+#line 29
+ testRunner.Then("the output should be", ((string)(null)), table3, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

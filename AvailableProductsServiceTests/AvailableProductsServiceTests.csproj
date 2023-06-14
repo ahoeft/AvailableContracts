@@ -20,4 +20,17 @@
     <Folder Include="Support\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AvailableProductsService\AvailableProductsService.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MusicContracts.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="PartnerContracts.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

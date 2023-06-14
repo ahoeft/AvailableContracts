@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AvailableProductsServiceTests/1.0.0": {
         "dependencies": {
+          "AvailableProductsService": "1.0.0",
           "FluentAssertions": "6.2.0",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "SpecFlow.Plus.LivingDocPlugin": "3.9.57",
@@ -35,6 +36,55 @@
           "lib/netcoreapp3.0/FluentAssertions.dll": {
             "assemblyVersion": "6.2.0.0",
             "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "FSharp.Core/7.0.200": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.23.6902"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -1287,6 +1337,14 @@
             "fileVersion": "1.3.12.62151"
           }
         }
+      },
+      "AvailableProductsService/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.200"
+        },
+        "runtime": {
+          "AvailableProductsService.dll": {}
+        }
       }
     }
   },
@@ -1309,6 +1367,13 @@
       "sha512": "sha512-5YOZLB0Tay1bw+wEYZTAZlPThQ/Yntk1HSPJYluMd5PW/Xg9E8I1mRC03AKRsnuANBR0kYaHq0NX1fg7RgrGNA==",
       "path": "fluentassertions/6.2.0",
       "hashPath": "fluentassertions.6.2.0.nupkg.sha512"
+    },
+    "FSharp.Core/7.0.200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NmgUnpNH6Zu9B0SPIhojyo38gnPdkdYFYQfbd6zosEH32kbGY/g/Klk7PfOWe1NAe/O1YOMmK9KhwQ2OWsWEbg==",
+      "path": "fsharp.core/7.0.200",
+      "hashPath": "fsharp.core.7.0.200.nupkg.sha512"
     },
     "Gherkin/19.0.3": {
       "type": "package",
@@ -2058,6 +2123,11 @@
       "sha512": "sha512-CQETcfKyEq6Uki9pExNZI5sEHeKqdt9Fc4pdLHu1mgaboQp0aI4W45M+UUnG6Zc2hxWTDmbD2AFVKA1wjU19YA==",
       "path": "xunit.skippablefact/1.3.12",
       "hashPath": "xunit.skippablefact.1.3.12.nupkg.sha512"
+    },
+    "AvailableProductsService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
