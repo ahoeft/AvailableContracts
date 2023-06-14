@@ -1,6 +1,8 @@
 using System;
 using System.Xml;
 using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
+using static Search;
 
 namespace AvailableProductsServiceTests.StepDefinitions
 {
@@ -8,7 +10,7 @@ namespace AvailableProductsServiceTests.StepDefinitions
     public class SearchContractsStepDefinitions
     {
         List<String> MusicContracts = new List<String>();
-        List<String> Results = new List<String>();
+        List<MusicContract> Results = new List<MusicContract>();
 
         [Given(@"the supplied reference data")]
         public void GivenTheSuppliedReferenceData()
@@ -28,6 +30,7 @@ namespace AvailableProductsServiceTests.StepDefinitions
         public void ThenTheOutputShouldBe(Table table)
         {
             Assert.Equal(table.RowCount, Results.Count);
+            table.CompareToSet<MusicContract>(Results);
         }
 
         [When(@"user perform search by ITunes ""([^""]*)""")]
